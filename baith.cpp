@@ -5,7 +5,7 @@ int n = 0;
 
 void showMenu() {
     printf("\n");
-    printf("---------------- Quản lý danh sách số nguyên  ----------------\n");
+   printf ("------------- QUAN LY DANH SACH SO NGUYEN-------------");
     printf("1. Them phan tu vao vi tri bat ky\n");
     printf("2. Xoa phan tu o vi tri bat ky\n");
     printf("3. Cap nhat gia tri tai vi tri bat ky\n");
@@ -124,7 +124,7 @@ void bubbleSort() {
         int swapped = 0;
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
-                // Ho�n �?i
+                // Hoán ð?i
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -173,3 +173,4 @@ int main() {
 
     return 0;
 }
+
